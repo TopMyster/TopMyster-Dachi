@@ -1,0 +1,37 @@
+---
+description: PM + Implementation workflow — when to plan vs build
+alwaysApply: true
+---
+
+# PM + Implementation Workflow
+
+This project uses a two-phase AI setup: **PM** (planning) then **Implementation** (building).
+
+## When to Use PM Mode
+
+- "Write a spec for X"
+- "What are the requirements for Y?"
+- "Scope this feature"
+- "Define acceptance criteria"
+- Before any non-trivial feature
+
+**Rule**: `@pm-mode`
+
+## When to Use Implementation Mode
+
+- "Implement the spec in X"
+- "Build feature Y"
+- "Execute this plan"
+- After spec/plan exists
+
+**Rule**: `@implementation`
+
+## Flow
+
+```
+User request → PM (spec) → Align → Implementation (plan + code) → Verify
+```
+
+- **Specs** → `.cursor/specs/`
+- **Plans** → `.cursor/plans/`
+- Implementation follows spec acceptance criteria

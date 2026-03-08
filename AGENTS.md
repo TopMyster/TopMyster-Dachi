@@ -45,3 +45,14 @@ npm start        # Run compiled build
 - Use `.cursor/plans/` for multi-step implementation plans
 - Break large tasks into smaller, verifiable steps
 - See `.cursor/rules/agent-plans.mdc` for plan structure guidance
+
+## PM + Implementation Setup
+
+Two-phase workflow for features:
+
+| Phase | Rule | Output |
+|-------|------|--------|
+| **PM** | `@pm-mode` | Specs in `.cursor/specs/` — requirements, acceptance criteria |
+| **Implementation** | `@implementation` | Plans in `.cursor/plans/` + code |
+
+**Flow**: Spec first → align scope → then implement from spec.
