@@ -5,7 +5,7 @@ Instructions for AI coding agents working on this project.
 ## Project Overview
 
 - **Project**: TopMyster
-- **Purpose**: [Describe your project here]
+- **Purpose**: SEND API ([send.app](https://send.app/)) — transaction crafting for global money transfer ("Like Cash"). Focus: building, signing, and validating transactions.
 - **Stack**: [Add your tech stack when known]
 
 ## Dev Environment
