@@ -6,20 +6,20 @@ Instructions for AI coding agents working on this project.
 
 - **Project**: TopMyster
 - **Purpose**: SEND API ([send.app](https://send.app/)) — transaction crafting for global money transfer ("Like Cash"). Focus: building, signing, and validating transactions.
-- **Stack**: [Add your tech stack when known]
+- **Stack**: Node.js, TypeScript, Express
 
 ## Dev Environment
 
-- Check `package.json` (or equivalent) for available scripts
-- Run `npm install` / `pnpm install` / `yarn` before making changes
-- Use the project's preferred package manager (see lockfile)
+- Run `npm install` before making changes
+- Use `npm run dev` for development (tsx watch)
 
 ## Build & Run
 
 ```bash
-# Add your project's commands here, e.g.:
-# npm run dev
-# npm run build
+npm install
+npm run dev      # Dev server with hot reload
+npm run build    # Compile to dist/
+npm start        # Run compiled build
 ```
 
 ## Testing
