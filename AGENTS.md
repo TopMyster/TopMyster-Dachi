@@ -42,9 +42,11 @@ npm start        # Run compiled build
 
 ## Planning & Agent Workflow
 
-- Use `.cursor/plans/` for multi-step implementation plans
-- Break large tasks into smaller, verifiable steps
-- See `.cursor/rules/agent-plans.mdc` for plan structure guidance
+- **When to plan**: Create a plan for tasks with 3+ steps, features spanning multiple files, refactors, or when the user asks for a breakdown.
+- **Where**: Store plans in `.cursor/plans/` as markdown (e.g. `feature-auth.md`, `refactor-api-layer.md`). Copy from `_template.md`.
+- **Structure**: Include goal, ordered steps with expected outcomes, dependencies, and verification checkboxes.
+- **Execution**: Create the plan before coding; work through steps in order; mark complete as you go; run tests after major steps.
+- **Details**: See `.cursor/rules/agent-plans.mdc` for full plan structure and template.
 
 ## PM + Implementation Setup
 
