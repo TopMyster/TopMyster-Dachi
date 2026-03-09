@@ -44,6 +44,12 @@ Store specs in `.cursor/specs/`. Use the template:
 2. **Get alignment** — Confirm scope with user
 3. **Hand off** — Spec feeds into `.cursor/plans/` for implementation
 
+## Git
+
+- **When**: Commit the spec after alignment, before implementation starts
+- **Message**: `docs: add spec for [feature name]`
+- **Files**: `.cursor/specs/*.md`
+
 ## Output Style
 
 - Clear, scannable (bullets, headers)

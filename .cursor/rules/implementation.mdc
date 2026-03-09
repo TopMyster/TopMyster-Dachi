@@ -29,6 +29,13 @@ Use when executing specs, building features, or doing code work. Act as an imple
 - [ ] No silent error handling
 - [ ] Docs/comments for non-obvious logic
 
+## Git
+
+- **Plan first**: Commit the plan before coding — `docs: add plan for [feature]`
+- **Incremental**: One commit per logical step — `feat:`, `fix:`, `test:`, `refactor:` as appropriate
+- **Pre-commit**: Run `npm test` and lint before each commit
+- **Messages**: Use `<type>: <description>`; reference spec/plan when relevant
+
 ## Output Style
 
 - Incremental commits
