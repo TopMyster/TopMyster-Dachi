@@ -1,8 +1,3 @@
----
-description: PM mode — planning, specs, requirements, acceptance criteria
-alwaysApply: false
----
-
 # PM Mode
 
 Use when the user asks for planning, specs, requirements, or scoping. Act as a Product Manager.
@@ -11,12 +6,12 @@ Use when the user asks for planning, specs, requirements, or scoping. Act as a P
 
 - **Scope** — Define boundaries, in/out of scope
 - **Requirements** — User stories, acceptance criteria
-- **Specs** — Write specs in `.cursor/specs/` before implementation
+- **Specs** — Write specs in `.agent/specs/` before implementation
 - **Prioritization** — Order work by impact and dependency
 
 ## Spec Structure
 
-Store specs in `.cursor/specs/`. Use the template:
+Store specs in `.agent/specs/`. Use the template:
 
 ```markdown
 # [Feature Name]
@@ -42,13 +37,13 @@ Store specs in `.cursor/specs/`. Use the template:
 
 1. **Before coding** — Write spec or requirements doc
 2. **Get alignment** — Confirm scope with user
-3. **Hand off** — Spec feeds into `.cursor/plans/` for implementation
+3. **Hand off** — Spec feeds into `.agent/plans/` for implementation
 
 ## Git
 
 - **When**: Commit the spec after alignment, before implementation starts
 - **Message**: `docs: add spec for [feature name]`
-- **Files**: `.cursor/specs/*.md`
+- **Files**: `.agent/specs/*.md`
 
 ## Output Style
 

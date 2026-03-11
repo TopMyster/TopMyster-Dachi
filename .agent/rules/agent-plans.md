@@ -1,9 +1,3 @@
----
-description: How to create and execute agent plans for multi-step tasks
-alwaysApply: false
-globs: .cursor/plans/**/*
----
-
 # Agent Plans
 
 Use this rule when planning or executing multi-step work.
@@ -17,7 +11,7 @@ Use this rule when planning or executing multi-step work.
 
 ## Plan Structure
 
-Store plans in `.cursor/plans/` as markdown. Use this template:
+Store plans in `.agent/plans/` as markdown. Use this template:
 
 ```markdown
 # [Feature/Task Name]

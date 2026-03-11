@@ -1,9 +1,6 @@
----
-description: Core coding standards and agent behavior for this project
-alwaysApply: true
----
-
 # Core Standards
+
+> Always apply these standards.
 
 ## General
 
@@ -14,7 +11,7 @@ alwaysApply: true
 ## Before Making Edits
 
 - Understand the scope before editing
-- For multi-step work, consider creating a plan in `.cursor/plans/`
+- For multi-step work, consider creating a plan in `.agent/plans/`
 - Check for existing tests and update or add as needed
 
 ## Error Handling
